@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="true">TodoApp</string>
+    <string name="Auth">Login</string>
+    <string name="EnterEmail">Enter email</string>
+    <string name="EnterPassword">Enter your password</string>
+    <string name="ConfPassword">Confirm password</string>
+    <string name="NoRegistered">Not registered? Click here to register</string>
+    <string name="Register">Registration</string>
+    <string name="EnterLogin">Enter your login</string>
+    <string name="ReLogin">Already registered? Click here to authorize</string>
+    <string name="or">___ Or ___</string>
+    <string name="pass_length_below">Enter a password longer than 5 characters</string>
+    <string name="email_already_exists">This email is already registered!</string>
+    <string name="register_success">Registration was successful</string>
+    <string name="complete_all_fields">Complete all fields.</string>
+    <string name="auth_success">Authorization was successful</string>
+    <string name="please_enter_login_and_password">Please enter your login and password</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="facebook_app_id">1470747693381314</string>
+    <string name="fb_login_protocol_scheme">fb1470747693381314</string>
+    <string name="default_web" tools:ignore="TypographyDashes">887478136162-25ffkojjrbd1gfpkgleolp08b6ut74em.apps.googleusercontent.com</string>
+    <string name="ForgotPass">Forgot your password?</string>
+    <string name="enter_email">Enter a valid email</string>
+    <string name="enter_pass">Enter a password > 6 characters long</string>
+    <string name="pass_not_matched">Passwords do not match</string>
+    <string name="Register_wait">Please wait, registration is in progress…</string>
+    <string name="Register_login">Please wait, authorization is in progress…</string>
+    <string name="Recover_Password">Recover password</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="please_enter_email">Please enter a valid email</string>
+    <string name="please_visit_email">Please check your email and review the password recovery instructions</string>
+    <string name="versionApp">Version 1.0</string>
+    <string name="about_app">About the app</string>
+    <string name="EnterTask">Enter the task</string>
+    <string name="Add">Add</string>
+    <string name="reset">Cast</string>
+    <string name="update_task">Update the task</string>
+    <string name="update">Update</string>
+    <string name="delete">Are you sure you want to delete the task?</string>
+    <string name="delete_confirmation">Delete confirmation</string>
+    <string name="success_added">Task successfully added</string>
+    <string name="empty_field">The text field must not be empty!!!</string>
+    <string name="invalid_action_alert">Invalid action notification</string>
+    <string name="delete_all">Are you sure you want to delete all your tasks?</string>
+    <string name="reset_confirmation">Confirm deletion of all tasks</string>
+    <string name="Complete">Done</string>
+    <string name="AddTask">Add a task</string>
+    <string name="new_task">Add a new task</string>
+    <string name="describe_todo_task">Describe your task…</string>
+    <string name="add_task">Add a task</string>
+    <string name="cancel">Cancel</string>
+    <string name="Done">Done</string>
+    <string name="want">What do you want to do next?</string>
+    <string name="add">Add</string>
+    <string name="Select_Language" translatable="true">Choose a language</string>
+    <string name="Profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="ProfileUser">User profile:</string>
+    <string name="Email">Email</string>
+    <string name="Logout">Logout</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#000"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Auth"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+    <Spinner
+        android:id="@+id/lang"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTintMode="src_over"
+        tools:ignore="UnusedAttribute,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lang"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#213496"
+        android:ems="10"
+        android:hint="@string/EnterEmail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/passEdt"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEdt"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="#213496"
+        android:ems="10"
+        android:hint="@string/EnterPassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passEdt"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/ForgotPass"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgotPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#ff0000"
+        android:text="@string/Auth"
+        android:textColor="#fff"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/NoRegistered"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_register"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/or"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_centerInParent="true"
+        android:layout_below="@id/or"
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

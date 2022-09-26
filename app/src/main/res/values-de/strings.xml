@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="true">Liste der Fälle</string>
+    <string name="Auth">Genehmigung</string>
+    <string name="EnterEmail">Email eingeben</string>
+    <string name="EnterPassword">Geben Sie Ihr Passwort ein</string>
+    <string name="ConfPassword">Passwort bestätigen</string>
+    <string name="NoRegistered">Nicht registriert? Klicken Sie hier, um sich zu registrieren</string>
+    <string name="Register">Anmeldung</string>
+    <string name="EnterLogin">Geben Sie Ihr Login ein</string>
+    <string name="ReLogin">Bereits registriert? Klicken Sie hier, um zu autorisieren</string>
+    <string name="or">___ Oder ___</string>
+    <string name="pass_length_below">Geben Sie ein Passwort mit mehr als 5 Zeichen ein</string>
+    <string name="email_already_exists">Diese Email-Adresse wurde bereits registriert!</string>
+    <string name="register_success">Die Registrierung war erfolgreich</string>
+    <string name="complete_all_fields">Füllen Sie alle Felder aus</string>
+    <string name="auth_success">Die Autorisierung war erfolgreich</string>
+    <string name="please_enter_login_and_password">Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein</string>
+    <string name="something_went_wrong">Etwas ist schief gelaufen</string>
+    <string name="facebook_app_id">1470747693381314</string>
+    <string name="fb_login_protocol_scheme">fb1470747693381314</string>
+    <string name="default_web" tools:ignore="TypographyDashes">887478136162-25ffkojjrbd1gfpkgleolp08b6ut74em.apps.googleusercontent.com</string>
+    <string name="ForgotPass">Haben Sie Ihr Passwort vergessen?</string>
+    <string name="enter_email">Geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="enter_pass">Geben Sie ein Passwort ein, das > 6 Zeichen lang ist</string>
+    <string name="pass_not_matched">Passwörter stimmen nicht überein</string>
+    <string name="Register_wait">Bitte warten, Registrierung läuft…</string>
+    <string name="Register_login">Bitte warten Sie auf die nächste Autorisierung…</string>
+    <string name="Recover_Password">Passwort wiederherstellen</string>
+    <string name="Open">Offen</string>
+    <string name="Close">Absagen</string>
+    <string name="please_enter_email">Bitte geben Sie eine gültige Email-Adresse ein</string>
+    <string name="please_visit_email">Bitte überprüfen Sie Ihre E-Mails und lesen Sie die Anweisungen zur Wiederherstellung des Passworts</string>
+    <string name="versionApp">Version 1.0</string>
+    <string name="about_app">Über die App</string>
+    <string name="EnterTask">Geben Sie die Aufgabe ein</string>
+    <string name="Add">Hinzufügen</string>
+    <string name="reset">Gießen</string>
+    <string name="update_task">Aktualisieren Sie die Aufgabe</string>
+    <string name="update">Aktualisieren</string>
+    <string name="delete">Möchten Sie die Aufgabe wirklich löschen?</string>
+    <string name="delete_confirmation">Bestätigung löschen</string>
+    <string name="success_added">Aufgabe erfolgreich hinzugefügt</string>
+    <string name="empty_field">Das Textfeld darf nicht leer sein!!!</string>
+    <string name="invalid_action_alert">Ungültige Aktionsbenachrichtigung</string>
+    <string name="delete_all">Möchten Sie wirklich alle Ihre Aufgaben löschen?</string>
+    <string name="reset_confirmation">Bestätigen Sie das Löschen aller Aufgaben</string>
+    <string name="Complete">erledigt</string>
+    <string name="AddTask">Fügen Sie eine Aufgabe hinzu</string>
+    <string name="new_task">Fügen Sie eine neue Aufgabe hinzu</string>
+    <string name="describe_todo_task">Beschreiben Sie Ihre Aufgabe…</string>
+    <string name="add_task">Fügen Sie eine Aufgabe hinzu</string>
+    <string name="cancel">Absagen</string>
+    <string name="Done">Erledigt</string>
+    <string name="want">Was willst du als nächstes tun?</string>
+    <string name="add">Hinzufügen</string>
+    <string name="Select_Language" translatable="true">Wählen Sie eine Sprache</string>
+    <string name="Profile">Profil</string>
+    <string name="Name">Name</string>
+    <string name="ProfileUser">Benutzerprofil:</string>
+    <string name="Email">Email</string>
+    <string name="Logout">Eingang</string>
+</resources>
